@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class CountDigits {
 	public static void main(String args[]) {
 int a[]=new int[5];
-@SuppressWarnings("resource")
+
 Scanner sc=new Scanner(System.in);
 System.out.println("Enter element of array");
 for(int i=0; i<a.length; i++)
