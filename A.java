@@ -1,16 +1,14 @@
-package Programs;
-import java.util.Scanner;
+package practice;
+
 public class A {
 public static void main(String args[]) {
+	int x= sum(4,5);
+	System.out.print(x);
 	
-    
-	 Scanner sc=new Scanner(System.in);
-	 int number=sc.nextInt();
-		for(int i=1; i<=10; i++)
-		{
-			int table=number*i;
-			System.out.println(number+ " * " + i+" = " +table);
-		}
-     
+	
 }
-}
+static int sum(int x , int y) {
+	return x+y;
+}}
+
+
